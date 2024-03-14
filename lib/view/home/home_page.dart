@@ -2,6 +2,7 @@ import 'dart:math';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:monopoly_game/model/app_data_models.dart';
 import 'package:monopoly_game/view/home/home_controller.dart';
 
 class HomePage extends StatelessWidget {
@@ -19,19 +20,28 @@ class HomePage extends StatelessWidget {
           Row(
             children: [
               Container(
-                height: 100, // Height for the first container
-                width: 50, // Width for the first container
+                height: 100,
+                width: 50,
                 color: Colors.primaries[0].shade300, // Example color
               ),
               ...List.generate(
-                8, // Generating 8 containers as you already have the first and last
-                (index) => Container(
-                  height: 80, // Height for the rest of the containers
-                  width: 38.5, // Width for the rest of the containers
-                  color: Colors
-                      .primaries[(index + 1) % 18].shade300, // Example color
-                ),
-              ),
+                  8, // Generating 8 containers as you already have the first and last
+                  (index) {
+                final data = dataList[index];
+                return Container(
+                  height: 80,
+                  width: 38.5,
+                  color: Colors.primaries[(index + 1) % 18].shade300,
+                  child: Column(
+                    children: [
+                      Text(data['city'] ?? 'Unknown City'),
+                      Text(data['price'] != null
+                          ? '${data['price']}'
+                          : 'No Price'),
+                    ],
+                  ),
+                );
+              }),
               Container(
                 height: 100, // Height for the last container
                 width: 50, // Width for the last container
