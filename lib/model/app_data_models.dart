@@ -1,0 +1,67 @@
+List<Map<String, dynamic>> dataList = [
+  // 1st
+  {
+    'city': 'Guwahati',
+    'price': 60,
+  },
+  {
+    'city': 'Chest',
+  },
+  {
+    'city': 'Bhubaneswar',
+    'price': 60,
+  },
+  {
+    'city': 'Income Tax',
+    'price': 200,
+  },
+  {
+    'city': 'City 5',
+    'price': 50.0,
+  },
+  {
+    'city': 'station',
+    'price': 200,
+  },
+
+  {
+    'city': 'Panaji',
+    'price': 100,
+  },
+  {
+    'city': 'City 8',
+    'price': 80.0,
+  },
+  {'city': 'City 9', 'price': 90.0},
+  {'city': 'City 10', 'price': 100.0},
+  {'city': 'City 11', 'price': 110.0},
+  {'city': 'City 12', 'price': 120.0},
+  {'city': 'City 13', 'price': 130.0},
+  {'city': 'City 14', 'price': 140.0},
+  {'city': 'City 15', 'price': 150.0},
+  {'city': 'City 16', 'price': 160.0},
+  {'city': 'City 17', 'price': 170.0},
+  {'city': 'City 18', 'price': 180.0},
+  {'city': 'City 19', 'price': 190.0},
+  {'city': 'City 20', 'price': 200.0},
+  {'city': 'City 21', 'price': 210.0},
+  {'city': 'City 22', 'price': 220.0},
+  {'city': 'City 23', 'price': 230.0},
+  {'city': 'City 24', 'price': 240.0},
+  {'city': 'City 25', 'price': 250.0},
+  {'city': 'City 26', 'price': 260.0},
+  {'city': 'City 27', 'price': 270.0},
+  {'city': 'City 28', 'price': 280.0},
+  {'city': 'City 29', 'price': 290.0},
+  {'city': 'City 30', 'price': 300.0},
+  {'city': 'City 31', 'price': 310.0},
+  {'city': 'City 32', 'price': 320.0},
+  {'city': 'City 33', 'price': 330.0},
+  {'city': 'City 34', 'price': 340.0},
+  {'city': 'City 35', 'price': 350.0},
+  {'city': 'City 36', 'price': 360.0},
+  {'city': 'City 37', 'price': 370.0},
+  {'city': 'City 38', 'price': 380.0},
+  {'city': 'City 39', 'price': 390.0},
+  {'city': 'City 40', 'price': 400.0},
+];
