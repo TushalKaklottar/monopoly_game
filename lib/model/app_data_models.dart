@@ -1,52 +1,75 @@
 List<Map<String, dynamic>> dataList = [
   // 1st
+  // 0 to 9
   {
-    'city': 'GO',
+    'city': 'Vadodara',
+    'price': 120,
   },
   {
-    'city': 'Guwahati',
-    'price': 60,
+    'city': 'Agra',
+    'price': 100,
   },
   {
-    'city': 'Chest',
+    'city': 'Chance',
+    'price': '',
+  },
+  {
+    'city': 'Panaji',
+    'price': 100,
+  },
+  {
+    'city': 'Station',
+    'price': 200,
+  },
+  {
+    'city': 'Pay Income Tax',
+    'price': 200,
   },
   {
     'city': 'Bhubaneswar',
     'price': 60,
   },
   {
-    'city': 'Income Tax',
+    'city': 'Chest',
+    'price': '',
+  },
+  {
+    'city': 'Guwahati',
+    'price': 60,
+  },
+  {
+    'city': 'GO',
+    'price': '',
+  },
+
+  // 2nd
+  // 10 to 19
+  {
+    'city': 'Kochi',
     'price': 200,
+  },
+  {
+    'city': 'Nagpur',
+    'price': 180,
+  },
+  {
+    'city': 'Chest',
+    'price': '',
+  },
+  {
+    'city': 'Indore',
+    'price': 160,
   },
   {
     'city': 'Station',
     'price': 200,
   },
-
   {
-    'city': 'Panaji',
-    'price': 100,
+    'city': 'Bhopal',
+    'price': 160,
   },
   {
-    'city': 'Chance',
-  },
-
-  {
-    'city': 'Agra',
-    'price': 100,
-  },
-
-  {
-    'city': 'Vadodara',
-    'price': 120,
-  },
-
-  // 2nd
-  {
-    'city': 'In Jail',
-  },
-  {
-    'city': 'Ludhiana',
+    'city': 'Patna',
     'price': 140,
   },
   {
@@ -54,35 +77,19 @@ List<Map<String, dynamic>> dataList = [
     'price': 150,
   },
   {
-    'city': 'Patna',
-    'price': 140.0,
+    'city': 'Ludhiana',
+    'price': 140,
   },
   {
-    'city': 'Bhopal',
-    'price': 160,
+    'city': 'In Jail',
+    'price': '',
   },
-  {
-    'city': 'Station',
-    'price': 200,
-  },
-  {
-    'city': 'Indore',
-    'price': 160,
-  },
-  {
-    'city': 'Chest',
-  },
-  {
-    'city': 'Nagpur',
-    'price': 180,
-  },
-  {
-    'city': 'Kochi',
-    'price': 200,
-  },
+
   // 3rd
+  // 20 to 30
   {
     'city': 'Free Parking',
+    'price': "",
   },
   {
     'city': 'Lucknow',
@@ -90,6 +97,7 @@ List<Map<String, dynamic>> dataList = [
   },
   {
     'city': 'Chance',
+    'price': '',
   },
   {
     'city': 'Chandigarh',
@@ -105,7 +113,7 @@ List<Map<String, dynamic>> dataList = [
   },
   {
     'city': 'Pune',
-    'price': 260.0,
+    'price': 260,
   },
   {
     'city': 'Hyderabad',
@@ -121,8 +129,10 @@ List<Map<String, dynamic>> dataList = [
   },
 
   // 4th
+  // 30++
   {
     'city': 'Go to jail',
+    'price': '',
   },
   {
     'city': 'Kolkata',
@@ -134,6 +144,7 @@ List<Map<String, dynamic>> dataList = [
   },
   {
     'city': 'Chest',
+    'price': '',
   },
   {
     'city': 'Bengaluru',
@@ -145,6 +156,7 @@ List<Map<String, dynamic>> dataList = [
   },
   {
     'city': 'Chance',
+    'price': '',
   },
   {
     'city': 'Delhi',
